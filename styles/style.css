@@ -16,11 +16,13 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
-nav{
+
+nav {
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -42,4 +44,22 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* nav related colour */
+.header {
+    background-color: #FFF8F3;
+}
+
+/* banner related */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.nis {
+    width: 584px;
+    height: 600px;
+
 }
